@@ -25,15 +25,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.1.so \
     vendor/sony/tone/proprietary/odm/bin/adsprpcd:$(TARGET_COPY_OUT_ODM)/bin/adsprpcd \
     vendor/sony/tone/proprietary/odm/bin/cdsprpcd:$(TARGET_COPY_OUT_ODM)/bin/cdsprpcd \
-    vendor/sony/tone/proprietary/odm/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
-    vendor/sony/tone/proprietary/odm/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/sony/tone/proprietary/odm/bin/irsc_util:$(TARGET_COPY_OUT_ODM)/bin/irsc_util \
     vendor/sony/tone/proprietary/odm/bin/mlog_qmi_service:$(TARGET_COPY_OUT_ODM)/bin/mlog_qmi_service \
     vendor/sony/tone/proprietary/odm/bin/msm_irqbalance:$(TARGET_COPY_OUT_ODM)/bin/msm_irqbalance \
     vendor/sony/tone/proprietary/odm/bin/netmgrd:$(TARGET_COPY_OUT_ODM)/bin/netmgrd \
     vendor/sony/tone/proprietary/odm/bin/pm-proxy:$(TARGET_COPY_OUT_ODM)/bin/pm-proxy \
     vendor/sony/tone/proprietary/odm/bin/pm-service:$(TARGET_COPY_OUT_ODM)/bin/pm-service \
-    vendor/sony/tone/proprietary/odm/bin/qseecomd:$(TARGET_COPY_OUT_ODM)/bin/qseecomd \
     vendor/sony/tone/proprietary/odm/bin/rmt_storage:$(TARGET_COPY_OUT_ODM)/bin/rmt_storage \
     vendor/sony/tone/proprietary/odm/bin/sct_service:$(TARGET_COPY_OUT_ODM)/bin/sct_service \
     vendor/sony/tone/proprietary/odm/bin/sensors.qcom:$(TARGET_COPY_OUT_ODM)/bin/sensors.qcom \
@@ -166,14 +163,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_ODM)/lib/egl/libQTapGLES.so \
     vendor/sony/tone/proprietary/odm/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_ODM)/lib/egl/libq3dtools_adreno.so \
     vendor/sony/tone/proprietary/odm/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_ODM)/lib/egl/libq3dtools_esx.so \
-    vendor/sony/tone/proprietary/odm/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_ODM)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/sony/tone/proprietary/odm/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_ODM)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/sony/tone/proprietary/odm/lib/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_ODM)/lib/hw/sensors.msm8996.so \
     vendor/sony/tone/proprietary/odm/lib/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vulkan.msm8996.so \
     vendor/sony/tone/proprietary/odm/lib/libC2D2.so:$(TARGET_COPY_OUT_ODM)/lib/libC2D2.so \
     vendor/sony/tone/proprietary/odm/lib/libCB.so:$(TARGET_COPY_OUT_ODM)/lib/libCB.so \
     vendor/sony/tone/proprietary/odm/lib/libOpenCL.so:$(TARGET_COPY_OUT_ODM)/lib/libOpenCL.so \
-    vendor/sony/tone/proprietary/odm/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libQSEEComAPI.so \
     vendor/sony/tone/proprietary/odm/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_ODM)/lib/libRSDriver_adreno.so \
     vendor/sony/tone/proprietary/odm/lib/libacdb-fts.so:$(TARGET_COPY_OUT_ODM)/lib/libacdb-fts.so \
     vendor/sony/tone/proprietary/odm/lib/libacdbloader.so:$(TARGET_COPY_OUT_ODM)/lib/libacdbloader.so \
@@ -262,8 +256,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/libchromatix_imx400_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx400_snapshot.so \
     vendor/sony/tone/proprietary/odm/lib/libconfigdb.so:$(TARGET_COPY_OUT_ODM)/lib/libconfigdb.so \
     vendor/sony/tone/proprietary/odm/lib/libdiag.so:$(TARGET_COPY_OUT_ODM)/lib/libdiag.so \
-    vendor/sony/tone/proprietary/odm/lib/libdrmfs.so:$(TARGET_COPY_OUT_ODM)/lib/libdrmfs.so \
-    vendor/sony/tone/proprietary/odm/lib/libdrmtime.so:$(TARGET_COPY_OUT_ODM)/lib/libdrmtime.so \
     vendor/sony/tone/proprietary/odm/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_ODM)/lib/libdsi_netctrl.so \
     vendor/sony/tone/proprietary/odm/lib/libdsutils.so:$(TARGET_COPY_OUT_ODM)/lib/libdsutils.so \
     vendor/sony/tone/proprietary/odm/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_ODM)/lib/libdualcameraddm.so \
@@ -275,8 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/libjpegdhw.so:$(TARGET_COPY_OUT_ODM)/lib/libjpegdhw.so \
     vendor/sony/tone/proprietary/odm/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_ODM)/lib/libjpegdmahw.so \
     vendor/sony/tone/proprietary/odm/lib/libjpegehw.so:$(TARGET_COPY_OUT_ODM)/lib/libjpegehw.so \
-    vendor/sony/tone/proprietary/odm/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_ODM)/lib/libkeymasterdeviceutils.so \
-    vendor/sony/tone/proprietary/odm/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_ODM)/lib/libkeymasterprovision.so \
     vendor/sony/tone/proprietary/odm/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_ODM)/lib/libllvm-glnext.so \
     vendor/sony/tone/proprietary/odm/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_ODM)/lib/libllvm-qcom.so \
     vendor/sony/tone/proprietary/odm/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_ODM)/lib/libllvm-qgl.so \
@@ -389,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_ODM)/lib/libqcci_legacy.so \
     vendor/sony/tone/proprietary/odm/lib/libqdi.so:$(TARGET_COPY_OUT_ODM)/lib/libqdi.so \
     vendor/sony/tone/proprietary/odm/lib/libqdp.so:$(TARGET_COPY_OUT_ODM)/lib/libqdp.so \
-    vendor/sony/tone/proprietary/odm/lib/libqisl.so:$(TARGET_COPY_OUT_ODM)/lib/libqisl.so \
     vendor/sony/tone/proprietary/odm/lib/libqmi.so:$(TARGET_COPY_OUT_ODM)/lib/libqmi.so \
     vendor/sony/tone/proprietary/odm/lib/libqmi_cci.so:$(TARGET_COPY_OUT_ODM)/lib/libqmi_cci.so \
     vendor/sony/tone/proprietary/odm/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_ODM)/lib/libqmi_client_helper.so \
@@ -409,7 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_ODM)/lib/libril-qc-radioconfig.so \
     vendor/sony/tone/proprietary/odm/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_ODM)/lib/libril-qcril-hook-oem.so \
     vendor/sony/tone/proprietary/odm/lib/librilqmiservices.so:$(TARGET_COPY_OUT_ODM)/lib/librilqmiservices.so \
-    vendor/sony/tone/proprietary/odm/lib/librpmb.so:$(TARGET_COPY_OUT_ODM)/lib/librpmb.so \
     vendor/sony/tone/proprietary/odm/lib/librs_adreno.so:$(TARGET_COPY_OUT_ODM)/lib/librs_adreno.so \
     vendor/sony/tone/proprietary/odm/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_ODM)/lib/librs_adreno_sha1.so \
     vendor/sony/tone/proprietary/odm/lib/libsdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib/libsdsprpc.so \
@@ -418,7 +406,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib/libsensor_reg.so:$(TARGET_COPY_OUT_ODM)/lib/libsensor_reg.so \
     vendor/sony/tone/proprietary/odm/lib/libsettings.so:$(TARGET_COPY_OUT_ODM)/lib/libsettings.so \
     vendor/sony/tone/proprietary/odm/lib/libsmemlog.so:$(TARGET_COPY_OUT_ODM)/lib/libsmemlog.so \
-    vendor/sony/tone/proprietary/odm/lib/libssd.so:$(TARGET_COPY_OUT_ODM)/lib/libssd.so \
     vendor/sony/tone/proprietary/odm/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_ODM)/lib/libsystem_health_mon.so \
     vendor/sony/tone/proprietary/odm/lib/libta.so:$(TARGET_COPY_OUT_ODM)/lib/libta.so \
     vendor/sony/tone/proprietary/odm/lib/libtime_genoff.so:$(TARGET_COPY_OUT_ODM)/lib/libtime_genoff.so \
@@ -431,14 +418,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_ODM)/lib64/egl/libQTapGLES.so \
     vendor/sony/tone/proprietary/odm/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_ODM)/lib64/egl/libq3dtools_adreno.so \
     vendor/sony/tone/proprietary/odm/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_ODM)/lib64/egl/libq3dtools_esx.so \
-    vendor/sony/tone/proprietary/odm/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/sony/tone/proprietary/odm/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/sony/tone/proprietary/odm/lib64/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/sensors.msm8996.so \
     vendor/sony/tone/proprietary/odm/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vulkan.msm8996.so \
     vendor/sony/tone/proprietary/odm/lib64/libC2D2.so:$(TARGET_COPY_OUT_ODM)/lib64/libC2D2.so \
     vendor/sony/tone/proprietary/odm/lib64/libCB.so:$(TARGET_COPY_OUT_ODM)/lib64/libCB.so \
     vendor/sony/tone/proprietary/odm/lib64/libOpenCL.so:$(TARGET_COPY_OUT_ODM)/lib64/libOpenCL.so \
-    vendor/sony/tone/proprietary/odm/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libQSEEComAPI.so \
     vendor/sony/tone/proprietary/odm/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_ODM)/lib64/libRSDriver_adreno.so \
     vendor/sony/tone/proprietary/odm/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_ODM)/lib64/libacdb-fts.so \
     vendor/sony/tone/proprietary/odm/lib64/libacdbloader.so:$(TARGET_COPY_OUT_ODM)/lib64/libacdbloader.so \
@@ -461,14 +445,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdsprpc.so \
     vendor/sony/tone/proprietary/odm/lib64/libconfigdb.so:$(TARGET_COPY_OUT_ODM)/lib64/libconfigdb.so \
     vendor/sony/tone/proprietary/odm/lib64/libdiag.so:$(TARGET_COPY_OUT_ODM)/lib64/libdiag.so \
-    vendor/sony/tone/proprietary/odm/lib64/libdrmfs.so:$(TARGET_COPY_OUT_ODM)/lib64/libdrmfs.so \
-    vendor/sony/tone/proprietary/odm/lib64/libdrmtime.so:$(TARGET_COPY_OUT_ODM)/lib64/libdrmtime.so \
     vendor/sony/tone/proprietary/odm/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_ODM)/lib64/libdsi_netctrl.so \
     vendor/sony/tone/proprietary/odm/lib64/libdsutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libdsutils.so \
     vendor/sony/tone/proprietary/odm/lib64/libgsl.so:$(TARGET_COPY_OUT_ODM)/lib64/libgsl.so \
     vendor/sony/tone/proprietary/odm/lib64/libidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libidl.so \
-    vendor/sony/tone/proprietary/odm/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libkeymasterdeviceutils.so \
-    vendor/sony/tone/proprietary/odm/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_ODM)/lib64/libkeymasterprovision.so \
     vendor/sony/tone/proprietary/odm/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_ODM)/lib64/libllvm-glnext.so \
     vendor/sony/tone/proprietary/odm/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_ODM)/lib64/libllvm-qcom.so \
     vendor/sony/tone/proprietary/odm/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_ODM)/lib64/libllvm-qgl.so \
@@ -486,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_ODM)/lib64/libqcci_legacy.so \
     vendor/sony/tone/proprietary/odm/lib64/libqdi.so:$(TARGET_COPY_OUT_ODM)/lib64/libqdi.so \
     vendor/sony/tone/proprietary/odm/lib64/libqdp.so:$(TARGET_COPY_OUT_ODM)/lib64/libqdp.so \
-    vendor/sony/tone/proprietary/odm/lib64/libqisl.so:$(TARGET_COPY_OUT_ODM)/lib64/libqisl.so \
     vendor/sony/tone/proprietary/odm/lib64/libqmi.so:$(TARGET_COPY_OUT_ODM)/lib64/libqmi.so \
     vendor/sony/tone/proprietary/odm/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_ODM)/lib64/libqmi_cci.so \
     vendor/sony/tone/proprietary/odm/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_ODM)/lib64/libqmi_client_helper.so \
@@ -502,7 +481,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_ODM)/lib64/libril-qc-radioconfig.so \
     vendor/sony/tone/proprietary/odm/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_ODM)/lib64/libril-qcril-hook-oem.so \
     vendor/sony/tone/proprietary/odm/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_ODM)/lib64/librilqmiservices.so \
-    vendor/sony/tone/proprietary/odm/lib64/librpmb.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmb.so \
     vendor/sony/tone/proprietary/odm/lib64/librs_adreno.so:$(TARGET_COPY_OUT_ODM)/lib64/librs_adreno.so \
     vendor/sony/tone/proprietary/odm/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_ODM)/lib64/librs_adreno_sha1.so \
     vendor/sony/tone/proprietary/odm/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libsdsprpc.so \
@@ -510,7 +488,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tone/proprietary/odm/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_ODM)/lib64/libsensor_reg.so \
     vendor/sony/tone/proprietary/odm/lib64/libsettings.so:$(TARGET_COPY_OUT_ODM)/lib64/libsettings.so \
     vendor/sony/tone/proprietary/odm/lib64/libsmemlog.so:$(TARGET_COPY_OUT_ODM)/lib64/libsmemlog.so \
-    vendor/sony/tone/proprietary/odm/lib64/libssd.so:$(TARGET_COPY_OUT_ODM)/lib64/libssd.so \
     vendor/sony/tone/proprietary/odm/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_ODM)/lib64/libsystem_health_mon.so \
     vendor/sony/tone/proprietary/odm/lib64/libta.so:$(TARGET_COPY_OUT_ODM)/lib64/libta.so \
     vendor/sony/tone/proprietary/odm/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_ODM)/lib64/libtime_genoff.so \
